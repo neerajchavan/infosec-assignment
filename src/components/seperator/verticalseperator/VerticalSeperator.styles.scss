@@ -1,0 +1,7 @@
+@import '../../../styles/colors';
+
+.vertical-divider {
+    height: 372px;
+    border-right: 1px solid $primary-seperator-border;
+    width: 1px;
+}

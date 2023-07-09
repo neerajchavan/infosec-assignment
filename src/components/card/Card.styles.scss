@@ -1,0 +1,8 @@
+@import '../../styles/colors';
+
+.card {
+    border: 1px solid $card-primary-border;
+    background: #FFF;
+    box-shadow: -3px 3px 5px 0px $primary-box-shadow;
+    padding: 15px 15px 17px 15px;
+}

@@ -1,0 +1,51 @@
+@import '../../styles/colors';
+
+.navbar-nav {
+    a {
+        color: $primary-link-inactive;
+        font-size: 16px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+
+    .active {
+        color: $primary-link;
+    }
+}
+
+.offcanvas-title {
+    margin: auto;
+}
+
+@media (max-width: 1199px) {
+
+    .offcanvas {
+        .offcanvas-body {
+            padding: 20px 56px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar-nav {
+            .nav-link {
+                text-align: left !important;
+            }
+        }
+
+        .action-btn-container {
+            flex-direction: row;
+            justify-content: space-around;
+
+            .btn {
+                background: unset;
+                border: none;
+                color: inherit;
+                padding: 0px;
+            }
+        }
+    }
+
+}

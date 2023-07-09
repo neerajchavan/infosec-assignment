@@ -1,0 +1,16 @@
+@import '../../../styles/colors';
+
+.primary-heading {
+    color: $primary-text;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.secondary-heading {
+    color: $secondary-text;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
